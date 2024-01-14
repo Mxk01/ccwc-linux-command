@@ -1,3 +1,6 @@
-/node_modules 
+# Ignore node_modules directory
+node_modules/
+
+# Ignore ccwc.ts and test2.txt files
 ccwc.ts
-test2.txt 
+test2.txt
