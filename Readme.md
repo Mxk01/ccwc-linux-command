@@ -18,10 +18,10 @@ Brief project description.
 
     Create a symbolic link named ccwc:
 
-    bash
+    sudo ln -s /path/to/ccwc.js ccwc
 
-sudo ln -s /path/to/ccwc.js ccwc
 
+ 
 Replace /path/to/ccwc.js with the actual path to your JavaScript file.
 
 Make the script executable:
