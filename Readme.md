@@ -19,7 +19,8 @@ Make the script executable.This grants execute permissions to the script.:
  
 If you encounter errors about missing packages, update your PATH:
 
-  ```  export PATH=$PATH:/usr/local/bin
+  ```
+export PATH=$PATH:/usr/local/bin
   ```
 Usage
 
