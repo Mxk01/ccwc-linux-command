@@ -12,7 +12,7 @@ interface Args {
   lineNumbers?: boolean;
   _: string[];
 }
-const argv: any = yargs
+const argv = yargs
   .option('characterBytes', {
     alias: 'c',
     describe: 'Find the bytes size of the file',
@@ -55,7 +55,7 @@ function countWords(filePath: string) {
 const stream = fs.createReadStream(filePath, 'utf-8');
 let str = '';
 
-stream.on('data', (chunk: any) => {
+stream.on('data', (chunk: string) => {
   str += chunk.toString();
   lineCount += (chunk.match(/\n/g) || []).length;
 });
