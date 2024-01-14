@@ -1,12 +1,6 @@
 
 # ccwc - linux cli  command 
 
-A brief description of what this project does and who it's for
-
-# Project Name
-
-Brief project description.
-
 ## Installation
 0. Use git to clone this project : ``` git clone https://github.com/Mxk01/ccwc-linux-command.git```
 1. Copy your JavaScript file to `/usr/local/bin` on Linux.
