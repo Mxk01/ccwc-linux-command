@@ -13,13 +13,13 @@ Brief project description.
 
 2. Navigate to the `/usr/local/bin` directory:
 
-   ```bash
+   ```
    cd /usr/local/bin
-
+   ```
     Create a symbolic link named ccwc:
-
+```
     sudo ln -s /path/to/ccwc.js ccwc
-
+```
 
  
 Replace /path/to/ccwc.js with the actual path to your JavaScript file.
