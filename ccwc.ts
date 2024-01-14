@@ -6,7 +6,12 @@ import path from 'path';
 import yargs from 'yargs';
 
 let lineCount: number = 0;
-
+interface Args {
+  characterBytes?: boolean;
+  wordCount?: boolean;
+  lineNumbers?: boolean;
+  _: string[];
+}
 const argv: any = yargs
   .option('characterBytes', {
     alias: 'c',
@@ -25,7 +30,7 @@ const argv: any = yargs
     describe: 'Find the number of lines in the file.',
     demandOption: false,
     type: 'boolean',
-  }).argv;
+  }).argv as Args;
 
 // first argument is the file path
 const filePath = argv._[0];
