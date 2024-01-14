@@ -14,36 +14,23 @@
 ```
     sudo ln -s ./ccwc.js ccwc
 ```
-
+Make the script executable.This grants execute permissions to the script.:
+```sudo chmod +x /usr/local/bin/ccwc```
  
-Replace /path/to/ccwc.js with the actual path to your JavaScript file.
-
-Make the script executable:
-
-bash
-
-sudo chmod +x /usr/local/bin/ccwc
-
-This grants execute permissions to the script.
-
 If you encounter errors about missing packages, update your PATH:
 
-bash
-
-    export PATH=$PATH:/usr/local/bin
-
+  ```  export PATH=$PATH:/usr/local/bin
+  ```
 Usage
 
 Run your script using the created symbolic link:
 
-bash
-
-ccwc
-
+```
+ccwc test.txt -c -w 
+```
 Deleting the Symbolic Link
 
 To remove the symbolic link, run:
-
-bash
-
+```
 sudo rm /usr/local/bin/ccwc
+```
