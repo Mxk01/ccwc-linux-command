@@ -16,7 +16,7 @@ Brief project description.
    ```
    cd /usr/local/bin
    ```
-    Create a symbolic link named ccwc:
+3.Create a symbolic link named ccwc:
 ```
     sudo ln -s ./ccwc.js ccwc
 ```
