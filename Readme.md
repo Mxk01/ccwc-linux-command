@@ -1,5 +1,6 @@
 
 # ccwc - linux cli  command 
+![image](https://github.com/Mxk01/ccwc-linux-command/assets/61979889/a55b6250-860d-4e2b-9a25-21144ce84102)
 
 ## Installation
 0. Use git to clone this project : ``` git clone https://github.com/Mxk01/ccwc-linux-command.git```
