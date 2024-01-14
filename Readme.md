@@ -10,7 +10,7 @@ Brief project description.
 ## Installation
 0. Use git to clone this project : ``` git clone https://github.com/Mxk01/ccwc-linux-command.git```
 1. Copy your JavaScript file to `/usr/local/bin` on Linux.
-``` cp ./ccwc.js 
+``` cp ./ccwc.js``` 
 2. Navigate to the `/usr/local/bin` directory:
 
    ```
